@@ -38,7 +38,7 @@
 	This will source the git-highlight script on every new Zsh session, ensuring the highlighting feature is always active:
 
    ```bash
-   echo "source ~/.git-highlight/git-highlight.zsh" >> ~/.zshrc
+   echo "" >> ~/.zshrc && echo "source ~/.git-highlight/git-highlight.zsh" >> ~/.zshrc
    source ~/.zshrc
    ```
 
